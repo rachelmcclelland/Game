@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="TicTacToe.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TicTacToe"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name ="rootPage" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid x:Name="board" Background="Blue" Height="300" Width="300" HorizontalAlignment="Left" >
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="button1" Content="" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" Width="80" Height="80" Tapped="Button_Tapped_1"/>
+            <Button x:Name="button2" Content="" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" Width="80" Height="80" Tapped="Button_Tapped_2"/>
+            <Button x:Name="button3" Content="" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" Width="80" Height="80" Tapped="Button_Tapped_3"/>
+            <Button x:Name="button4" Content="" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" Width="80" Height="80" Tapped="Button_Tapped_4"/>
+            <Button x:Name="button5" Content="" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Width="80" Height="80" Tapped="Button_Tapped_5"/>
+            <Button x:Name="button6" Content="" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" Width="80" Height="80" Tapped="Button_Tapped_6"/>
+            <Button x:Name="button7" Content="" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" Width="80" Height="80" Tapped="Button_Tapped_7"/>
+            <Button x:Name="button8" Content="" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" Width="80" Height="80" Tapped="Button_Tapped_8"/>
+            <Button x:Name="button9" Content="" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" Width="80" Height="80" Tapped="Button_Tapped_9"/>
+
+        </Grid>
+
+        <TextBlock Text="Turn" HorizontalAlignment="Center" Margin="50,50,0,0" VerticalAlignment="Top"/>
+        <TextBlock Text="hello" x:Name="displayTurn" Margin="50, 70,0, 0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+    </Grid>
+</Page>
