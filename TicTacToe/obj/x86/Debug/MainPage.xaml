@@ -9,7 +9,48 @@
 
     <Grid x:ConnectionId='1' x:Name ="rootPage" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <Grid x:ConnectionId='2' x:Name="board" Background="Blue" Height="300" Width="300" HorizontalAlignment="Left" >
+        <StackPanel>
+
+            <Grid Width="100" Height="80" Margin="200,100,0,10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Border Grid.Row="0" Background="LightGray" BorderThickness="2" BorderBrush="Black"/>
+                <Border BorderBrush="Black" BorderThickness="1" Grid.RowSpan="2"/>
+
+                <TextBlock Text="Turn" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" VerticalAlignment="Center"/>
+                <TextBlock x:ConnectionId='16' Text="" x:Name="displayTurn" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.ColumnSpan="2"/>
+
+            </Grid>
+            <Grid Width="100" Height="80" Margin="200, 0, 0, 0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Border Background="LightGray" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="2"/>
+                <Border Background="LightGray" Grid.Row="1" Grid.ColumnSpan="2"/>
+
+                <TextBlock Text ="Score" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="0" />
+                <TextBlock Text="Score"  HorizontalAlignment="Center" Grid.Row="0" Grid.Column="1"/>
+                <TextBlock x:ConnectionId='14' Text="" Grid.Row="1" Grid.Column="0" x:Name="score1" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock x:ConnectionId='15' Text="" Grid.Row="1" Grid.Column="1" x:Name="score2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+
+            <Button x:ConnectionId='12' Content="Reset Game" HorizontalAlignment="Center" Margin="200, 10, 0, 0" Width="100"                   />
+            <Button x:ConnectionId='13' Content="Exit Game" HorizontalAlignment="Center" Margin="200, 5, 0, 0" Width="100"                  />
+        </StackPanel>
+
+        <Grid x:ConnectionId='2' x:Name="board" Background="LightCoral" Height="400" Width="400" HorizontalAlignment="Left" >
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
@@ -21,20 +62,20 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <Button x:ConnectionId='4' x:Name="button1" Content="" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" Width="80" Height="80"                         />
-            <Button x:ConnectionId='5' x:Name="button2" Content="" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" Width="80" Height="80"                         />
-            <Button x:ConnectionId='6' x:Name="button3" Content="" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" Width="80" Height="80"                         />
-            <Button x:ConnectionId='7' x:Name="button4" Content="" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" Width="80" Height="80"                         />
-            <Button x:ConnectionId='8' x:Name="button5" Content="" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Width="80" Height="80"                         />
-            <Button x:ConnectionId='9' x:Name="button6" Content="" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" Width="80" Height="80"                         />
-            <Button x:ConnectionId='10' x:Name="button7" Content="" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" Width="80" Height="80"                         />
-            <Button x:ConnectionId='11' x:Name="button8" Content="" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" Width="80" Height="80"                         />
-            <Button x:ConnectionId='12' x:Name="button9" Content="" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" Width="80" Height="80"                         />
+            <Button x:ConnectionId='3' x:Name="button1" Content="" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" Width="100" Height="100"                       />
+            <Button x:ConnectionId='4' x:Name="button2" Content="" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" Width="100" Height="100"                       />
+            <Button x:ConnectionId='5' x:Name="button3" Content="" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" Width="100" Height="100"                       />
+            <Button x:ConnectionId='6' x:Name="button4" Content="" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" Width="100" Height="100"                       />
+            <Button x:ConnectionId='7' x:Name="button5" Content="" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Width="100" Height="100"                       />
+            <Button x:ConnectionId='8' x:Name="button6" Content="" Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" Width="100" Height="100"                       />
+            <Button x:ConnectionId='9' x:Name="button7" Content="" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" Width="100" Height="100"                       />
+            <Button x:ConnectionId='10' x:Name="button8" Content="" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" Width="100" Height="100"                       />
+            <Button x:ConnectionId='11' x:Name="button9" Content="" Grid.Row="2" Grid.Column="2" HorizontalAlignment="Center" Width="100" Height="100"                       />
+
 
         </Grid>
 
-        <TextBlock Text="Turn" HorizontalAlignment="Center" Margin="50,50,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:ConnectionId='3' Text="hello" x:Name="displayTurn" Margin="50, 70,0, 0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+
     </Grid>
 </Page>
 
