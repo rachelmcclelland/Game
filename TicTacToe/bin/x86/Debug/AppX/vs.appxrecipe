@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-08T17:38:07.880</Modified>
+      <Modified>2017-12-12T13:59:30.472</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\bin\x86\Debug\TicTacToe.exe">
       <PackagePath>entrypoint\TicTacToe.exe</PackagePath>
-      <Modified>2017-12-08T17:38:06.277</Modified>
+      <Modified>2017-12-12T13:59:28.732</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rache\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -496,11 +496,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2017-12-08T17:38:07.439</Modified>
+      <Modified>2017-12-11T20:45:00.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\bin\x86\Debug\Core\TicTacToe.exe">
       <PackagePath>TicTacToe.exe</PackagePath>
-      <Modified>2017-12-08T17:38:07.854</Modified>
+      <Modified>2017-12-12T13:59:30.420</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

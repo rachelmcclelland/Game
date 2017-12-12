@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage;
 using Windows.UI;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
@@ -27,13 +28,16 @@ namespace TicTacToe
         public MainPage()
         {
             this.InitializeComponent();
-            
         }
 
+        //initialise turn, player 1 & plaler 2 score to 0
         private int turn = 1;
         private int player1 = 0;
         private int player2 = 0;
 
+
+        //when a square is tapped, check whos turn it is and set
+        //the content to either X or O
         private void Button_Tapped(object sender, TappedRoutedEventArgs e)
         {
             Button button = (Button)sender;
@@ -53,234 +57,10 @@ namespace TicTacToe
             turn++;
 
             display(turn);
-
-            int rowPos = (int) button.GetValue(Grid.RowProperty);
             checkForWinner();
         }
 
-        #region
-        /*        private int turn = 1;
-
-                private void Button_Tapped_1(object sender, TappedRoutedEventArgs e)
-                {
-                    int click1 = 0;
-
-                    if (click1 == 0)
-                    {
-                        if (turn % 2 != 0)
-                        {
-                            button1.Content = "X";
-                        }
-                        else
-                        {
-                            button1.Content = "O";
-                        }
-                        turn++;
-                        click1++;
-                    }
-                    else
-                    {
-                        button1.Content = button1.Content;
-                    }
-                    display(turn);
-                    checkForWinner(turn);
-                }
-
-                private void Button_Tapped_2(object sender, TappedRoutedEventArgs e)
-                {
-                    int click2 = 0;
-
-                    if (click2 == 0)
-                    {
-                        if (turn % 2 != 0)
-                        {
-                            button2.Content = "X";
-                        }
-                        else
-                        {
-                            button2.Content = "O";
-                        }
-                        turn++;
-                        click2++;
-                    }
-                    else
-                    {
-                        button2.Content = button2.Content;
-                    }
-                    display(turn);
-                    checkForWinner(turn);
-                }
-
-                private void Button_Tapped_3(object sender, TappedRoutedEventArgs e)
-                {
-                    int click3 = 0;
-                    if (click3 == 0)
-                    {
-                        if (turn % 2 != 0)
-                        {
-                            button3.Content = "X";
-                        }
-                        else
-                        {
-                            button3.Content = "O";
-                        }
-                        turn++;
-                        click3++;
-                    }
-                    else
-                    {
-                        button3.Content = button3.Content;
-                    }
-                    display(turn);
-                    checkForWinner(turn);
-                }
-
-                private void Button_Tapped_4(object sender, TappedRoutedEventArgs e)
-                {
-                    int click4 = 0;
-                    if (click4 == 0)
-                    {
-                        if (turn % 2 != 0)
-                        {
-                            button4.Content = "X";
-                        }
-                        else
-                        {
-                            button4.Content = "O";
-                        }
-                        turn++;
-                        click4++;
-                    }
-                    else
-                    {
-                        button1.Content = button1.Content;
-                    }
-                    display(turn);
-                    checkForWinner(turn);
-                }
-
-                private void Button_Tapped_5(object sender, TappedRoutedEventArgs e)
-                {
-                    int click5 = 0;
-                    if (click5 == 0)
-                    {
-                        if (turn % 2 != 0)
-                        {
-                            button5.Content = "X";
-                        }
-                        else
-                        {
-                            button5.Content = "O";
-                        }
-                        turn++;
-                        click5++;
-                    }
-                    else
-                    {
-                        button1.Content = button1.Content;
-                    }
-                    display(turn);
-                    checkForWinner(turn);
-                }
-
-                private void Button_Tapped_6(object sender, TappedRoutedEventArgs e)
-                {
-                    int click6 = 0;
-                    if (click6 == 0)
-                    {
-                        if (turn % 2 != 0)
-                        {
-                            button6.Content = "X";
-                        }
-                        else
-                        {
-                            button6.Content = "O";
-                        }
-                        turn++;
-                        click6++;
-                    }
-                    else
-                    {
-                        button6.Content = button6.Content;
-                    }
-                    display(turn);
-                    checkForWinner(turn);
-                }
-
-                private void Button_Tapped_7(object sender, TappedRoutedEventArgs e)
-                {
-                    int click7 = 0;
-                    if (click7 == 0)
-                    {
-                        if (turn % 2 != 0)
-                        {
-                            button7.Content = "X";
-                        }
-                        else
-                        {
-                            button7.Content = "O";
-                        }
-                        turn++;
-                        click7++;
-                    }
-                    else
-                    {
-                        button7.Content = button7.Content;
-                    }
-                    display(turn);
-                    checkForWinner(turn);
-                }
-
-                private void Button_Tapped_8(object sender, TappedRoutedEventArgs e)
-                {
-                    int click8 = 0;
-                    if (click8 == 0)
-                    {
-                        if (turn % 2 != 0)
-                        {
-                            button8.Content = "X";
-                        }
-                        else
-                        {
-                            button8.Content = "O";
-                        }
-                        turn++;
-                        click8++;
-                    }
-                    else
-                    {
-                        button8.Content = button8.Content;
-                    }
-                    display(turn);
-                    checkForWinner(turn);
-                }
-
-                private void Button_Tapped_9(object sender, TappedRoutedEventArgs e)
-                {
-                    int click9 = 0;
-                    if (click9 == 0)
-                    {
-                        if (turn % 2 != 0)
-                        {
-                            button9.Content = "X";
-                        }
-                        else
-                        {
-                            button9.Content = "O";
-                        }
-                        turn++;
-                        click9++;
-                    }
-                    else
-                    {
-                        button9.Content = button9.Content;
-                    }
-                    display(turn);
-                    checkForWinner(turn);
-                }*/
-        #endregion
-
-
+        //display whos turn it is
         private void display(int turn)
         {
             if (turn % 2 != 0)
@@ -293,14 +73,18 @@ namespace TicTacToe
             }
         }
 
+        //call all checking methods to see if someone has won
         public void checkForWinner()
         {
             checkRows();
             checkColumns();
             checkDiagonal1();
             checkDiagonal2();
+
+            saveScore();
         }
 
+        //check all rows to see if there is a winner
         private async void checkRows()
         {
 
@@ -369,6 +153,7 @@ namespace TicTacToe
             }
         }
 
+        //check all columns to see if there is a winner
         private async void checkColumns()
         {
             if ((String)button1.Content != "" && (String)button4.Content != "" && (String)button7.Content != "")
@@ -436,6 +221,7 @@ namespace TicTacToe
             }
         }
 
+        //check diagonal going down to the bottom right to see if there is a winner
         private async void checkDiagonal1()
         {
             if ((String)button1.Content != "" && (String)button5.Content != "" && (String)button9.Content != "")
@@ -462,6 +248,7 @@ namespace TicTacToe
            
         }
 
+        //check diagonal going up to the top left to see if there is a winner
         private async void checkDiagonal2()
         {
             if ((String)button3.Content != "" && (String)button5.Content != "" && (String)button7.Content != "")
@@ -487,6 +274,7 @@ namespace TicTacToe
             }
         }
 
+        //clear the grid
         private void cleargame()
         {
             button1.Content = "";
@@ -503,9 +291,10 @@ namespace TicTacToe
 
         private void exitGame(object sender, TappedRoutedEventArgs e)
         {
-            Application.Current.Exit();
+            Application.Current.Exit(); //exit the game is the exit button is tapped
         }
 
+        //reset the scores to 0and the grid to blank
         private void resetGame(object sender, TappedRoutedEventArgs e)
         {
             player1 = 0;
@@ -516,6 +305,39 @@ namespace TicTacToe
             cleargame();
 
         }
-        
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            //read the settings
+            ApplicationDataContainer localSettings = ApplicationData.Current.LocalSettings;
+
+            try
+            {
+                score1.Text = localSettings.Values["score1Setting"].ToString();
+
+            }
+            catch
+            {
+                player1 = 0;
+                score1.Text = "";
+            }
+
+            base.OnNavigatedTo(e); //dont delete
+        }
+
+       private void saveScore()
+        {
+             ApplicationDataContainer localSettings = ApplicationData.Current.LocalSettings;
+
+            String score1Setting, score2Setting;
+
+            score1Setting = localSettings.Values["player1"].ToString();
+            score2Setting = localSettings.Values["player2"].ToString();
+
+
+
+        }
+
+
     }
 }

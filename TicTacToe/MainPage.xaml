@@ -5,6 +5,7 @@
     xmlns:local="using:TicTacToe"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:WindowClosingBehavior.Closing="{Binding ClosedCommand}"
     mc:Ignorable="d">
 
     <Grid x:Name ="rootPage" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
