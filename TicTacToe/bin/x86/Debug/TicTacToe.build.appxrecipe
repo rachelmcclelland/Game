@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>b899ac9c-02e4-49b7-a2a2-e8faa2ee94bc</PackageIdentityName>
-    <PackageIdentityPublisher>CN=Rachel</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=DFAA6617-5F88-4EE4-BA93-9FBF920D6452</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
@@ -334,35 +334,12 @@
     <AppxPackagedFile Include="C:\Users\rache\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Assets\SplashScreen1.scale-200.png">
+      <PackagePath>Assets\SplashScreen1.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Assets\LockScreenLogo.scale-200.png">
-      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Assets\SplashScreen.scale-200.png">
-      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Assets\Square150x150Logo.scale-200.png">
-      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Assets\Square44x44Logo.scale-200.png">
-      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
-      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Assets\Wide310x150Logo.scale-200.png">
-      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\bin\x86\Debug\TicTacToe.xr.xml">
       <PackagePath>TicTacToe.xr.xml</PackagePath>

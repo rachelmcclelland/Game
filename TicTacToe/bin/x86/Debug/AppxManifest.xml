@@ -7,11 +7,11 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="b899ac9c-02e4-49b7-a2a2-e8faa2ee94bc" Publisher="CN=Rachel" Version="1.0.0.0" ProcessorArchitecture="x86" />
+  <Identity Name="280RachelMcClelland.TicTacToe-TwoPlayers" Publisher="CN=DFAA6617-5F88-4EE4-BA93-9FBF920D6452" Version="1.1.3.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="b899ac9c-02e4-49b7-a2a2-e8faa2ee94bc" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>TicTacToe</DisplayName>
-    <PublisherDisplayName>Rachel</PublisherDisplayName>
+    <DisplayName>TicTacToe - Two Players</DisplayName>
+    <PublisherDisplayName>Rachel McClelland</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -22,9 +22,12 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="TicTacToe.exe" EntryPoint="TicTacToe.App">
-      <uap:VisualElements DisplayName="TicTacToe" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="TicTacToe" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
-        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+      <uap:VisualElements DisplayName="TicTacToe - Two Players" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="TicTacToe" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"></uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen1.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape" />
+        </uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>
@@ -37,7 +40,7 @@
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2015" />
     <build:Item Name="OperatingSystem" Version="10.0.14393.0 (rs1_release.160715-1616)" />
     <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.25420.1" />
-    <build:Item Name="ProjectGUID" Value="{f89cac45-c0be-4e6c-a829-a17f1738247a}" />
+    <build:Item Name="ProjectGUID" Value="{F89CAC45-C0BE-4E6C-A829-A17F1738247A}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
     <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.25527.1" />

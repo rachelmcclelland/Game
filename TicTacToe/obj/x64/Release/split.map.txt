@@ -1,0 +1,14 @@
+﻿[ResourceMetadata]
+"ResourceDimensions"		"scale-200"
+"ResourceDimensions"		"language-en-us"
+
+[Files]
+"C:\Users\rache\Documents\Internet & Mobile App Development\TicTacToe\TicTacToe\obj\x64\Release\split.pri"			"resources.pri"
+"C:\Users\rache\Documents\Internet & Mobile App Development\TicTacToe\TicTacToe\obj\x64\Release\PackageLayout\WinMetadata\Windows.winmd"			"WinMetadata\Windows.winmd"
+"C:\Users\rache\Documents\Internet & Mobile App Development\TicTacToe\TicTacToe\obj\x64\Release\PackageLayout\TicTacToe.xr.xml"			"TicTacToe.xr.xml"
+"C:\Users\rache\Documents\Internet & Mobile App Development\TicTacToe\TicTacToe\obj\x64\Release\PackageLayout\Properties\Default.rd.xml"			"Properties\Default.rd.xml"
+"C:\Users\rache\Documents\Internet & Mobile App Development\TicTacToe\TicTacToe\obj\x64\Release\PackageLayout\Assets\wide310.scale-200.png"			"Assets\wide310.scale-200.png"
+"C:\Users\rache\Documents\Internet & Mobile App Development\TicTacToe\TicTacToe\obj\x64\Release\PackageLayout\Assets\square44.scale-200.png"			"Assets\square44.scale-200.png"
+"C:\Users\rache\Documents\Internet & Mobile App Development\TicTacToe\TicTacToe\obj\x64\Release\PackageLayout\Assets\square150.scale-200.png"			"Assets\square150.scale-200.png"
+"C:\Users\rache\Documents\Internet & Mobile App Development\TicTacToe\TicTacToe\obj\x64\Release\PackageLayout\Assets\splash.scale-200.png"			"Assets\splash.scale-200.png"
+"C:\Users\rache\Documents\Internet & Mobile App Development\TicTacToe\TicTacToe\obj\x64\Release\PackageLayout\Assets\logo50.png"			"Assets\logo50.png"

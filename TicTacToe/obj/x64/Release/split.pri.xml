@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="280RachelMcClelland.TicTacToe-TwoPlayers" version="1.0" primary="true">
+		<Qualifiers>
+			<Scale>200</Scale>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://280RachelMcClelland.TicTacToe-TwoPlayers/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://280RachelMcClelland.TicTacToe-TwoPlayers/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TicTacToe.xr.xml" uri="ms-resource://280RachelMcClelland.TicTacToe-TwoPlayers/Files/TicTacToe.xr.xml">
+				<Candidate type="Path">
+					<Value>TicTacToe.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="logo50.png" uri="ms-resource://280RachelMcClelland.TicTacToe-TwoPlayers/Files/Assets/logo50.png">
+					<Candidate type="Path">
+						<Value>Assets\logo50.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="splash.png" uri="ms-resource://280RachelMcClelland.TicTacToe-TwoPlayers/Files/Assets/splash.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\splash.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="square150.png" uri="ms-resource://280RachelMcClelland.TicTacToe-TwoPlayers/Files/Assets/square150.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\square150.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="square44.png" uri="ms-resource://280RachelMcClelland.TicTacToe-TwoPlayers/Files/Assets/square44.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\square44.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="wide310.png" uri="ms-resource://280RachelMcClelland.TicTacToe-TwoPlayers/Files/Assets/wide310.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\wide310.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://280RachelMcClelland.TicTacToe-TwoPlayers/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://280RachelMcClelland.TicTacToe-TwoPlayers/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

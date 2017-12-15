@@ -1,0 +1,7 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.scale-100"
+"ResourceDimensions"		"scale-100"
+
+[Files]
+"C:\Users\rache\Documents\Internet & Mobile App Development\TicTacToe\TicTacToe\obj\x86\Release\Upload\split.scale-100.pri"			"resources.pri"
+"C:\Users\rache\Documents\Internet & Mobile App Development\TicTacToe\TicTacToe\obj\x86\Release\PackageUploadLayout\Assets\150x150.scale-100.png"			"Assets\150x150.scale-100.png"

@@ -1,0 +1,2 @@
+MainPackage=C:\Users\rache\Documents\Internet & Mobile App Development\TicTacToe\TicTacToe\bin\ARM\Release\TicTacToe_1.1.0.0_ARM.appx
+SymbolPackage=C:\Users\rache\Documents\Internet & Mobile App Development\TicTacToe\TicTacToe\AppPackages\TicTacToe_1.1.0.0_Test\TicTacToe_1.1.0.0_ARM.appxsym

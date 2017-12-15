@@ -9,32 +9,32 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>b899ac9c-02e4-49b7-a2a2-e8faa2ee94bc</PackageIdentityName>
-    <PackageIdentityPublisher>CN=Rachel</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=DFAA6617-5F88-4EE4-BA93-9FBF920D6452</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>19EDF6EC1B1F577BD0FC08E1F13C8AAE4B65D5E1B89565BDDEDB0AA33072E162</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>b899ac9c-02e4-49b7-a2a2-e8faa2ee94bc_1.0.0.0_x86__s3crwnp05nepg</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>b899ac9c-02e4-49b7-a2a2-e8faa2ee94bc_s3crwnp05nepg!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>b899ac9c-02e4-49b7-a2a2-e8faa2ee94bc</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=Rachel</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredManifestChecksum>9516F3A3E640EC2FE8D436A4E1BA4AFE158FA91879FFD805EEDF9C0ED5F29F2D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>280RachelMcClelland.TicTacToe-TwoPlayers_1.1.3.0_x86__1ypv801aptk7y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>280RachelMcClelland.TicTacToe-TwoPlayers_1ypv801aptk7y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>280RachelMcClelland.TicTacToe-TwoPlayers</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=DFAA6617-5F88-4EE4-BA93-9FBF920D6452</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.3.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-12-12T13:59:30.472</Modified>
+      <Modified>2017-12-14T21:29:45.044</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\bin\x86\Debug\TicTacToe.exe">
       <PackagePath>entrypoint\TicTacToe.exe</PackagePath>
-      <Modified>2017-12-12T13:59:28.732</Modified>
+      <Modified>2017-12-14T21:04:35.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rache\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,43 +448,14 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T22:11:12.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Assets\SplashScreen1.scale-200.png">
+      <PackagePath>Assets\SplashScreen1.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-09-20T17:30:08.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-12-06T11:24:10.069</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Assets\LockScreenLogo.scale-200.png">
-      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2015-09-20T17:30:08.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Assets\SplashScreen.scale-200.png">
-      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T17:30:08.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Assets\Square150x150Logo.scale-200.png">
-      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T17:30:08.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Assets\Square44x44Logo.scale-200.png">
-      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T17:30:08.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
-      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T17:30:08.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T17:30:08.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\Assets\Wide310x150Logo.scale-200.png">
-      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-09-20T17:30:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\bin\x86\Debug\TicTacToe.xr.xml">
       <PackagePath>TicTacToe.xr.xml</PackagePath>
@@ -496,11 +467,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2017-12-11T20:45:00.101</Modified>
+      <Modified>2017-12-14T21:29:44.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rache\Documents\Internet &amp; Mobile App Development\TicTacToe\TicTacToe\bin\x86\Debug\Core\TicTacToe.exe">
       <PackagePath>TicTacToe.exe</PackagePath>
-      <Modified>2017-12-12T13:59:30.420</Modified>
+      <Modified>2017-12-14T21:29:45.023</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -1,48 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
-<Package
-  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
-  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
-  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
-  IgnorableNamespaces="uap mp">
-
-  <Identity
-    Name="b899ac9c-02e4-49b7-a2a2-e8faa2ee94bc"
-    Publisher="CN=Rachel"
-    Version="1.0.0.0" />
-
-  <mp:PhoneIdentity PhoneProductId="b899ac9c-02e4-49b7-a2a2-e8faa2ee94bc" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
-
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="280RachelMcClelland.TicTacToe-TwoPlayers" Publisher="CN=DFAA6617-5F88-4EE4-BA93-9FBF920D6452" Version="1.1.0.0" />
+  <mp:PhoneIdentity PhoneProductId="b899ac9c-02e4-49b7-a2a2-e8faa2ee94bc" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>TicTacToe</DisplayName>
-    <PublisherDisplayName>Rachel</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
+    <DisplayName>TicTacToe - Two Players</DisplayName>
+    <PublisherDisplayName>Rachel McClelland</PublisherDisplayName>
+    <Logo>Assets\logo50.png</Logo>
   </Properties>
-
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
   </Dependencies>
-
   <Resources>
-    <Resource Language="x-generate"/>
+    <Resource Language="x-generate" />
   </Resources>
-
   <Applications>
-    <Application Id="App"
-      Executable="$targetnametoken$.exe"
-      EntryPoint="TicTacToe.App">
-      <uap:VisualElements
-        DisplayName="TicTacToe"
-        Square150x150Logo="Assets\Square150x150Logo.png"
-        Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="TicTacToe"
-        BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
-        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="TicTacToe.App">
+      <uap:VisualElements DisplayName="TicTacToe - Two Players" Square150x150Logo="Assets\square150.png" Square44x44Logo="Assets\square44.png" Description="TicTacToe" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\wide310.png">
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\splash.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape" />
+        </uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>
-
   <Capabilities>
     <Capability Name="internetClient" />
   </Capabilities>
